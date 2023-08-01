@@ -1,66 +1,14 @@
 #yaml-language-server: $schema=https://architalia.github.io/site/schema.json
 
 site_name: ''
-repo_url: https://github.com/architalia/site
-repo_name: architalia/site
+repo_url: https://github.com/architalia/core
+repo_name: architalia/core
 edit_uri: edit/main/docs/
 
 
 nav: 
-  - 'Home':
-        - 'Benvenuti': index.md
-        - 'Esonero responsabilita': 'termini.md'
-        
-  - 'Arch Linux':
-        - 'Cosè Archlinux?': Archlinux-Guida/about-arch.md
-        - 'Download': Download/archlinux.md
-        - 'Derivate': Download/Derivate.md
-        - '🇮🇹 Installazione di Arch Linux': 'Archlinux-Guida/arch-guida.md'
-        - '🇬🇧 Arch Linux Installation': 'en/Archlinux-Guide/guide.md'
-        - '🇪🇸 Instalación de Arch Linux': 'en/Archlinux-Guide/guida-es.md'
-        - '🇵🇹 Instalação do Arch Linux': 'en/Archlinux-Guide/guida-pt.md'
-        - '🇫🇷 Installation d Arch Linux': 'en/Archlinux-Guide/guida-fr.md'
-        - '🇩🇪 Arch Linux Installation': 'en/Archlinux-Guide/guida-de.md'
-        - '🇯🇵 Arch Linuxのインストール': 'en/Archlinux-Guide/guida-jp.md'
-        - '🇨🇳 安装Arch Linux': 'en/Archlinux-Guide/guida-cn.md'
-        - '🇮🇳 Arch Linux Installation': 'en/Archlinux-Guide/guida-in.md'
-      
-  - 'Altre Guide': 
-        - 'Comandi Linux': 'Altre-Guide/comandi-linux.md'
-        - 'File System': 'Altre-Guide/filesystem.md'
-        - 'Pacman': 'Altre-Guide/Pacman.md'
-        - 'AUR': 'Altre-Guide/aur.md'
-        - 'Yay': 'Altre-Guide/yay.md'
-        - 'Fstab': 'Altre-Guide/fstab.md'
-        - 'Vim': 'Altre-Guide/vim.md'
-        - 'Nano': 'Altre-Guide/nano.md'
-        - 'Nvidia': 'Altre-Guide/nvidia.md'
-        - 'AMD Manjaro mesa-codecs': 'Altre-Guide/amd.md'
-        - 'Sudoers.d': 'Altre-Guide/sudoers.md'
-        - 'Reflector': 'Altre-Guide/reflector.md'
-        - 'Downgrade': 'Altre-Guide/downgrade.md'
-        - 'Permessi': 'Altre-Guide/permessi.md'
-        - 'Grub': 'Altre-Guide/grub.md'
-        - 'Systemd-Boot': 'Altre-Guide/systemdboot.md'
-        - 'Firewalld': 'Altre-Guide/firewald.md'
-        - 'Rsync': 'Altre-Guide/rsync.md'
-        - 'Timeshift': 'Altre-Guide/timeshift.md'
-        - 'Gestione Utenti': 'Altre-Guide/gestione-utenti.md'
-        - 'NordVPN': 'Altre-Guide/nordvpn.md'
-
-  - 'Core Linux':
-        - 'Download': Download/core.md
-        - 'Repository': Download/ai-repo.md
-        
- 
-  - 'Scripts': 
-        - scripts/installscript.md
-        - scripts/rsync.md
-        - scripts/clamav.md
-        - scripts/clean.md
-        - 'Easypacman': scripts/easypacman.md
-        
-  - libri.md      
+  - 'Core Linux': index.md
+    
      
 
 theme:
@@ -117,9 +65,7 @@ extra:
   consent:
     title: Cookie consent
     description: >- 
-     Utilizziamo i cookie per riconoscere le tue visite ripetute e le tue preferenze, così come per misurare 
-     l efficacia della nostra documentazione e se gli utenti trovano ciò che stanno cercando. Con il tuo consenso, 
-     ci stai aiutando a migliorare la nostra documentazione.
+     We use cookies to recognize your repeat visits and preferences, as well as to measure the effectiveness of our documentation and whether users are finding what they are looking for. With your consent, you are helping us improve our documentation.
 
      
   version:
