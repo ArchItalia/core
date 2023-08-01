@@ -1,0 +1,174 @@
+#yaml-language-server: $schema=https://architalia.github.io/site/schema.json
+
+site_name: ''
+repo_url: https://github.com/architalia/site
+repo_name: architalia/site
+edit_uri: edit/main/docs/
+
+
+nav: 
+  - 'Home':
+        - 'Benvenuti': index.md
+        - 'Esonero responsabilita': 'termini.md'
+        
+  - 'Arch Linux':
+        - 'Cosè Archlinux?': Archlinux-Guida/about-arch.md
+        - 'Download': Download/archlinux.md
+        - 'Derivate': Download/Derivate.md
+        - '🇮🇹 Installazione di Arch Linux': 'Archlinux-Guida/arch-guida.md'
+        - '🇬🇧 Arch Linux Installation': 'en/Archlinux-Guide/guide.md'
+        - '🇪🇸 Instalación de Arch Linux': 'en/Archlinux-Guide/guida-es.md'
+        - '🇵🇹 Instalação do Arch Linux': 'en/Archlinux-Guide/guida-pt.md'
+        - '🇫🇷 Installation d Arch Linux': 'en/Archlinux-Guide/guida-fr.md'
+        - '🇩🇪 Arch Linux Installation': 'en/Archlinux-Guide/guida-de.md'
+        - '🇯🇵 Arch Linuxのインストール': 'en/Archlinux-Guide/guida-jp.md'
+        - '🇨🇳 安装Arch Linux': 'en/Archlinux-Guide/guida-cn.md'
+        - '🇮🇳 Arch Linux Installation': 'en/Archlinux-Guide/guida-in.md'
+      
+  - 'Altre Guide': 
+        - 'Comandi Linux': 'Altre-Guide/comandi-linux.md'
+        - 'File System': 'Altre-Guide/filesystem.md'
+        - 'Pacman': 'Altre-Guide/Pacman.md'
+        - 'AUR': 'Altre-Guide/aur.md'
+        - 'Yay': 'Altre-Guide/yay.md'
+        - 'Fstab': 'Altre-Guide/fstab.md'
+        - 'Vim': 'Altre-Guide/vim.md'
+        - 'Nano': 'Altre-Guide/nano.md'
+        - 'Nvidia': 'Altre-Guide/nvidia.md'
+        - 'AMD Manjaro mesa-codecs': 'Altre-Guide/amd.md'
+        - 'Sudoers.d': 'Altre-Guide/sudoers.md'
+        - 'Reflector': 'Altre-Guide/reflector.md'
+        - 'Downgrade': 'Altre-Guide/downgrade.md'
+        - 'Permessi': 'Altre-Guide/permessi.md'
+        - 'Grub': 'Altre-Guide/grub.md'
+        - 'Systemd-Boot': 'Altre-Guide/systemdboot.md'
+        - 'Firewalld': 'Altre-Guide/firewald.md'
+        - 'Rsync': 'Altre-Guide/rsync.md'
+        - 'Timeshift': 'Altre-Guide/timeshift.md'
+        - 'Gestione Utenti': 'Altre-Guide/gestione-utenti.md'
+        - 'NordVPN': 'Altre-Guide/nordvpn.md'
+
+  - 'Core Linux':
+        - 'Download': Download/core.md
+        - 'Repository': Download/ai-repo.md
+        
+ 
+  - 'Scripts': 
+        - scripts/installscript.md
+        - scripts/rsync.md
+        - scripts/clamav.md
+        - scripts/clean.md
+        - 'Easypacman': scripts/easypacman.md
+        
+  - libri.md      
+     
+
+theme:
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil 
+    view: material/eye
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+  logo: assets/logo-new.png
+  favicon: assets/favicon.png
+  name: material
+  language: it
+  custom_dir: overrides
+  
+  
+    
+  features:
+    - navigation.footer
+    - content.action.edit
+    - navigation.sections
+    - navigation.tabs
+    - content.code.copy
+
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: light
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+     Utilizziamo i cookie per riconoscere le tue visite ripetute e le tue preferenze, così come per misurare 
+     l efficacia della nostra documentazione e se gli utenti trovano ciò che stanno cercando. Con il tuo consenso, 
+     ci stai aiutando a migliorare la nostra documentazione.
+
+     
+  version:
+    default: stable
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ArchItalia
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/groups/architalia
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.uno/@Architalia 
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@ArchItalia
+    - icon: fontawesome/solid/mug-saucer
+      link: https://www.paypal.com/donate/?hosted_button_id=3C4YAF9NXMEWL
+      
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/fonts.css
+  - stylesheets/colors.css
+extra_javascript:
+  - javascript/extra.js
+    
+copyright: ' '
+  
+
+
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+
+
+
+
+
