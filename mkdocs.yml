@@ -30,7 +30,7 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 
-  logo: assets/logo-new.png
+  logo: assets/logo.png
   favicon: assets/favicon.png
   name: material
   language: it
