@@ -27,7 +27,7 @@ To ensure the upkeep of the system, use the **clean** tool that is installed and
 ## Download
 [Download](#) **Core-ISO-sha256sum.zip** by Architalia GDrive 
 
-!!! info
+!!! warning
     Please, wait for loading new version! ready in 1h
 ```
 Core Linux
