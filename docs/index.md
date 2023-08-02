@@ -10,6 +10,7 @@
 
 ![Screenshot from 2023-08-01 16-11-31](https://github.com/ArchItalia/site/assets/117321045/b2365773-1bd9-4a78-be0b-0d02afb9f46a)
 
+Core Linux is an operating system that requires the entire disk to be used during installation and does not support dual boot. However, it is possible to install it as the first operating system and then resize the available space to create a second partition for another operating system. During installation, Core Linux will prompt you to select the disk to install it on and choose a size for the system, while the rest of the available disk space will be dedicated to the home partition. For example, if the UEFI system is detected, Core Linux will create a 1GB EFI partition, the root partition size will be allocated a certain amount of space, and the remainder will be dedicated to the home partition. Core Linux uses the Btrfs filesystem with subvolumes and a dual partition for both the legacy and UEFI operating systems.
 
 To install Core Linux with its minimal and organised environment, navigate to the **installcore** application in the menu or type `installcore` in the console to start the installation process. You can also import your own guides or scripts to be run through the live based on Arch Linux.
 
