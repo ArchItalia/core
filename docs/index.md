@@ -21,7 +21,8 @@ The customised configuration of Core Linux comes with pre-installed packages suc
 
 The filesystem used is **btrfs**, with the creation of subvolumes **@** and **@home**, and **zram generator** is installed for swap management.
 
-![Screenshot from 2023-07-27 20-54-10](#) la ISO e' monentaneamente in caricamento per un problema sara' disponibile piu tardi grazie
+![Screenshot from 2023-07-27 20-54-10](https://github.com/ArchItalia/core/assets/117321045/5aebefe1-d4bf-4629-827a-f896bc26df1f)
+
 
 To ensure the upkeep of the system, use the **clean** tool that is installed and available by typing `clean` in the console.
 
