@@ -30,7 +30,7 @@ To ensure the upkeep of the system, use the **clean** tool that is installed and
 [Download](#) **Core-ISO-sha256sum.zip** by Architalia GDrive 
 
 !!! warning
-    Please, wait for loading new version! ready in 1h
+    Please, wait for loading new version! ready in 25min,
     Core Linux requires the entire disk to be used during installation and does not support dual boot
     
 ```
