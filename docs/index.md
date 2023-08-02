@@ -27,6 +27,6 @@ To ensure the upkeep of the system, use the **clean** tool that is installed and
 ## Download
 
 * [**Core-2023.08.02-x86_64.iso**](https://drive.google.com/file/d/1tyQ46B1DOOe6byWmXegPk3NSD5HhqR0T/view?usp=sharing) 1.48 GB
-* **sha256sum** `4d7db133d394a6f5e496a6747406ea75d5aef1d62cab462b86040a5ed424c77e`. 
+* **sha256sum** `fa499652a1f26822fc6147f80b86861637f2028bab3eade8e1a1cf8d0d271f8b`. 
 
 <br>
