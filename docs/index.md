@@ -31,6 +31,8 @@ To ensure the upkeep of the system, use the **clean** tool that is installed and
 
 !!! warning
     Please, wait for loading new version! ready in 1h
+    Core Linux requires the entire disk to be used during installation and does not support dual boot
+    
 ```
 Core Linux
 version 2023.8 Beta
