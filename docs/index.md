@@ -28,6 +28,7 @@ To ensure the upkeep of the system, use the **clean** tool that is installed and
 [Download](#) **Core-ISO-sha256sum.zip** by Architalia GDrive [Please, wait for loading new version! ready in 1h]
 
 !!! info
+```
 Core Linux
 version 2023.8 Beta
 size 1.48G
