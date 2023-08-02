@@ -26,7 +26,10 @@ To ensure the upkeep of the system, use the **clean** tool that is installed and
 
 ## Download
 
-* [**Core-2023.08.02-x86_64.iso**](#) 1.48 GB La ISO non e' temporaneamente disponibile 
-* **sha256sum** ``. 
+* [Download](#) **Core-ISO-sha256sum.zip** by Architalia GDrive [Please, wait for loading new version! ready in 1h]
+* Core Linux
+* version 2023.8 Beta
+* size 1.48G
+* **sha256sum** `fa499652a1f26822fc6147f80b86861637f2028bab3eade8e1a1cf8d0d271f8b`. 
 
 <br>
