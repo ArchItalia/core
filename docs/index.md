@@ -27,7 +27,7 @@ The filesystem used is **btrfs**, with the creation of subvolumes **@** and **@h
 To ensure the upkeep of the system, use the **clean** tool that is installed and available by typing `clean` in the console.
 
 ## Download
-[Download](#) **Core-ISO-sha256sum.zip** by Architalia GDrive 
+[Download](https://drive.google.com/file/d/1dtm1nkgsmDN8l0sxEEgJuCOZn4Xe_BeQ/view?usp=sharing) **Core-ISO-sha256sum.zip** by Architalia GDrive 
 
 !!! warning
    
