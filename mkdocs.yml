@@ -8,6 +8,7 @@ edit_uri: edit/main/docs/
 
 nav: 
   - 'Core Linux': index.md
+  - 'Development': dev.md
   - 'Repository': https://gitlab.com/architalialinux/ai-repo
   - 'Architalia': https://architalia.github.io/site/
     
