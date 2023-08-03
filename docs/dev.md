@@ -10,7 +10,8 @@ Team di sviluppo e beta tester della comunita' Architalia
 ## Log di Sviluppo
 
 ```
-- Installcore v1.4 Fixato problema mancato inserimento lingua in installazione
+- Installcore v1.4 Fixato problema mancato inserimento lingua in installazione.
+- Installcore v1.4 Fixato problema lingua della tastiera.
 ```
 
 ## In Sviluppo
