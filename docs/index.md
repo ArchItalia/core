@@ -36,9 +36,10 @@ To ensure the upkeep of the system, use the **clean** tool that is installed and
 !!! info
 
     - Core Linux
+    - installcore v1.5
     - version 2023.8 Beta
     - size 1.48G
-    - sha256sum 15476fe51d36e99c7ede0eeccf5d8b77f4fe8746cf4c5cb85ce7e46c9b60ee2a
+    - sha256sum 4471e2617b2908a296eeae51f59645178b9f3ecf6ceb0c7a984aa1b4da1dd774
 
 NOTE: Pacman will complain about importing a PGP key that is either invalid or corrupted.  The problem can be fixed by locally signing the imported key:
 
