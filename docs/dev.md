@@ -12,6 +12,9 @@ Team di sviluppo e beta tester della comunita' Architalia
 ```
 - Installcore v1.4 Fixato problema mancato inserimento lingua in installazione.
 - Installcore v1.4 Fixato problema lingua della tastiera.
+- aggiunti aur helper in repository
+- aggiunto downgrade in repository
+- creati scripts per gestione aur helper dall'estensione Arch Linux Updates Indicator
 - Installcore v1.5 Aggiunta scelta AUR helper e firewall [in test]
 ```
 
