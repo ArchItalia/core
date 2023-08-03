@@ -21,9 +21,8 @@ Team di sviluppo e beta tester della comunita' Architalia
 ## In Sviluppo
 
 ```
-- Scelta del kernel linux in installazione
-- Scelta dell' AUR helper in installazione
-- Scelta del tipo di firewall in installazione
+- Scelta del kernel linux in installazione [in sviluppo]
+
 - Scelta del supporto nvidia in installazione
 - Creazione della funzione per l'installazione nvidia
 - Correzzione del file os-release con logo ascii
