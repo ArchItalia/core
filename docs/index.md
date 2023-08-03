@@ -27,7 +27,7 @@ The filesystem used is **btrfs**, with the creation of subvolumes **@** and **@h
 To ensure the upkeep of the system, use the **clean** tool that is installed and available by typing `clean` in the console.
 
 ## Download
-[Download](https://drive.google.com/file/d/1dtm1nkgsmDN8l0sxEEgJuCOZn4Xe_BeQ/view?usp=sharing) **Core-ISO-sha256sum.zip** by Architalia GDrive 
+[Download](https://drive.google.com/file/d/17mCxa2AddK1XtXBrYQrldZs-mb1m8X5C/view?usp=sharing) **Core-2023.08.03-x86_64.zip** by Architalia GDrive 
 
 !!! warning
    
@@ -38,7 +38,7 @@ To ensure the upkeep of the system, use the **clean** tool that is installed and
     - Core Linux
     - version 2023.8 Beta
     - size 1.48G
-    - sha256sum fa499652a1f26822fc6147f80b86861637f2028bab3eade8e1a1cf8d0d271f8b
+    - sha256sum 15476fe51d36e99c7ede0eeccf5d8b77f4fe8746cf4c5cb85ce7e46c9b60ee2a
 
 NOTE: Pacman will complain about importing a PGP key that is either invalid or corrupted.  The problem can be fixed by locally signing the imported key:
 
