@@ -15,7 +15,7 @@ Team di sviluppo e beta tester della comunita' Architalia
 - aggiunti aur helper in repository
 - aggiunto downgrade in repository
 - creati scripts per gestione aur helper dall'estensione Arch Linux Updates Indicator
-- Installcore v1.5 Aggiunta scelta AUR helper e firewall [in test]
+- Installcore v1.5 Aggiunta scelta AUR helper e firewall
 ```
 
 ## In Sviluppo
