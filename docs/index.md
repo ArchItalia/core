@@ -27,7 +27,7 @@ The filesystem used is **btrfs**, with the creation of subvolumes **@** and **@h
 To ensure the upkeep of the system, use the **clean** tool that is installed and available by typing `clean` in the console.
 
 ## Download
-[Download](https://drive.google.com/file/d/17mCxa2AddK1XtXBrYQrldZs-mb1m8X5C/view?usp=sharing) **Core-2023.08.03-x86_64.zip** by Architalia GDrive 
+[Download](https://drive.google.com/file/d/1tG-4RM0cTteu-rIATe4-HYGKKIywmH2Y/view?usp=sharing) **Core-2023.08.03-x86_64.zip** by Architalia GDrive 
 
 !!! warning
    
