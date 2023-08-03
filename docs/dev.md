@@ -12,7 +12,7 @@ Team di sviluppo e beta tester della comunita' Architalia
 ```
 - Installcore v1.4 Fixato problema mancato inserimento lingua in installazione.
 - Installcore v1.4 Fixato problema lingua della tastiera.
-- Installcore v1.5 Aggiunta scelta AUR helper e firewall
+- Installcore v1.5 Aggiunta scelta AUR helper e firewall [in test]
 ```
 
 ## In Sviluppo
