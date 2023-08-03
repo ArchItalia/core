@@ -1,5 +1,7 @@
 # Team di sviluppo e test Core Linux 🇮🇹 
 Team di sviluppo e beta tester della comunita' Architalia
+Klode Cripta - beta tester
+Jonalinux - developer
 
 ## ultima release per test
 [Download](#) ancora non presente
