@@ -5,7 +5,7 @@ Team di sviluppo e beta tester della comunita' Architalia
 - Jonalinux - developer
 
 ## ultima release per test
-[Download](https://drive.google.com/file/d/1tG-4RM0cTteu-rIATe4-HYGKKIywmH2Y/view?usp=sharing) 
+[Download](https://drive.google.com/file/d/1BksM4fGwZNrzx6q4xhJqOx2GAWc7ZTMM/view?usp=drive_link) v.1.7
 
 ## Log di Sviluppo
 
