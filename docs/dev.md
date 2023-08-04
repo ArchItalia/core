@@ -16,13 +16,12 @@ Team di sviluppo e beta tester della comunita' Architalia
 - aggiunto downgrade in repository
 - creati scripts per gestione aur helper dall'estensione Arch Linux Updates Indicator
 - Installcore v1.5 Aggiunta scelta AUR helper e firewall
+- Installcore v1.7 Scelta del kernel linux in installazione e migliorato il menu guida
 ```
 
 ## In Sviluppo
 
 ```
-- Scelta del kernel linux in installazione [in sviluppo]
-
 - Scelta del supporto nvidia in installazione
 - Creazione della funzione per l'installazione nvidia
 - Correzzione del file os-release con logo ascii
