@@ -5,7 +5,8 @@ Team di sviluppo e beta tester della comunita' Architalia
 - Jonalinux - developer
 
 ## ultima release per test
-[Download](https://drive.google.com/file/d/1BksM4fGwZNrzx6q4xhJqOx2GAWc7ZTMM/view?usp=drive_link) v.1.7
+[Download](https://drive.google.com/file/d/1ZszQ-0ke65Ya40a_7zBCXuKxh3F0E6sq/view?usp=sharing) v.1.8 sha256sum: fdcd734f1c08b429f7c7f9e0c8793fa4b0bb5c12273cd08b90b08b81096280e0
+
 
 ## Log di Sviluppo
 
@@ -17,12 +18,12 @@ Team di sviluppo e beta tester della comunita' Architalia
 - creati scripts per gestione aur helper dall'estensione Arch Linux Updates Indicator
 - Installcore v1.5 Aggiunta scelta AUR helper e firewall
 - Installcore v1.7 Scelta del kernel linux in installazione e migliorato il menu guida
+- Creato Multilingua per InstallCore in v.1.8
 ```
 
 ## In Sviluppo
 
 ```
-- Multilingua di InstalCore in v.1.8
 - Scelta del supporto nvidia in installazione
 - Creazione della funzione per l'installazione nvidia
 - Correzzione del file os-release con logo ascii
