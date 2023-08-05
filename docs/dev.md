@@ -22,6 +22,7 @@ Team di sviluppo e beta tester della comunita' Architalia
 ## In Sviluppo
 
 ```
+- Multilingua di InstalCore in v.1.8
 - Scelta del supporto nvidia in installazione
 - Creazione della funzione per l'installazione nvidia
 - Correzzione del file os-release con logo ascii
