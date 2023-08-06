@@ -1,4 +1,5 @@
 # Core Linux 
+Core Linux Is a Brand New Arch Linux Based Distribution. Friendly, Powerful and Easy to Use
 
 ![Core Linux Header Image](https://github.com/ArchItalia/site/assets/117321045/3dcdd1a1-e9d2-4dde-bd99-8404541a643b)
 
