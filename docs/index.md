@@ -107,7 +107,7 @@ User-selectable options:
 
 
 ## Download
-[Download](https://drive.google.com/file/d/1ZszQ-0ke65Ya40a_7zBCXuKxh3F0E6sq/view?usp=sharing) **Core-2023.08.05-x86_64.zip** by Architalia GDrive 
+[Download](#) coming soon..
 
 !!! warning
    
@@ -116,10 +116,10 @@ User-selectable options:
 !!! info
 
     - Core Linux
-    - installcore v1.8
+    - installcore v1.9
     - version 2023.8 Beta
     - size 1.48G
-    - sha256sum fdcd734f1c08b429f7c7f9e0c8793fa4b0bb5c12273cd08b90b08b81096280e0
+    - sha256sum 
 
 NOTE: Pacman will complain about importing a PGP key that is either invalid or corrupted.  The problem can be fixed by locally signing the imported key:
 
