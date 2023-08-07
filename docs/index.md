@@ -43,14 +43,9 @@ In general, the Minimal version is designed to provide a solid foundation for bu
 Base packages in the Minimal Version:
 
 ```
-* core-base
-* architalia-fonts
-* core-gtk-theme
-* core-gnome-backgrounds
-* core-icons-theme
-* core-keyring
-* core-extensions-base
-* core-terminal-nord-theme
+* papirus-icon-theme
+* papirus-nord
+* color-folders
 * clean
 * nautilus
 * cups
