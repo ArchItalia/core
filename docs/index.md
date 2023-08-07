@@ -122,7 +122,7 @@ With color-folders, you can change the style of your Papirus icons among 45 diff
 <br>
 
 ## Download
-[Download](#) coming soon..
+[Download](https://drive.google.com/file/d/1RjuYMJQeTP5urZipwZXCBGNHkE8c5JyG/view?usp=sharing) 
 
 !!! warning
    
