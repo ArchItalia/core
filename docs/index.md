@@ -42,6 +42,7 @@ Downgrade is a tool for package storage in Arch Linux that allows users to rever
 
 To use Downgrade, the user must connect to the Core Linux console as a root user and launch the command 'downgrade package name'. The program displays a list of all installed packages in chronological order, from newest to oldest. The user can select the package they want to revert and choose the previous version they want to downgrade to. It should be noted that users can use a previous version of a package that is either installed in the package cache or remotely.
 
+## Version Minimal and Full
 
 The main difference between the Minimal and Full versions of Core Linux is related to the packages included in the basic installation. The Minimal version includes only the essential packages necessary to make the operating system work, such as the Arch Linux base core, libraries, fonts, themes, the Xorg graphical client, the GNOME desktop environment with some accessories like Nautilus, the network manager, the CUPS printing utility, and other utility packages like cronie and Git.
 
