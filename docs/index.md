@@ -1,31 +1,110 @@
 # Core Linux 
-Core Linux Is a Brand New Arch Linux Based Distribution. Friendly, Powerful and Easy to Use
 
-![Core Linux Header Image](https://github.com/ArchItalia/site/assets/117321045/3dcdd1a1-e9d2-4dde-bd99-8404541a643b)
-
-## About Core Linux
-
-**Core Linux** is a minimal Linux distribution, based on Arch Linux, that focuses on simplicity and speed. It provides only essential packages for the proper functioning of the OS and is designed for customisation based on the user's needs. Core Linux is only available on 64-bit architectures and is also an official Linux distribution of the Architalia community. 
-
-## Getting Started 
-
-![Screenshot from 2023-08-01 16-11-31](https://github.com/ArchItalia/site/assets/117321045/b2365773-1bd9-4a78-be0b-0d02afb9f46a)
-
-Core Linux is an operating system that requires the entire disk to be used during installation and does not support dual boot. However, it is possible to install it as the first operating system and then resize the available space to create a second partition for another operating system. During installation, Core Linux will prompt you to select the disk to install it on and choose a size for the system, while the rest of the available disk space will be dedicated to the home partition. For example, if the UEFI system is detected, Core Linux will create a 1GB EFI partition, the root partition size will be allocated a certain amount of space, and the remainder will be dedicated to the home partition. Core Linux uses the Btrfs filesystem with subvolumes and a dual partition for both the legacy and UEFI operating systems.
-
-To install Core Linux with its minimal and organised environment, navigate to the **installcore** application in the menu or type `installcore` in the console to start the installation process. You can also import your own guides or scripts to be run through the live based on Arch Linux.
-
-## Configuration
-![Screenshot from 2023-08-01 17-09-11](https://github.com/ArchItalia/site/assets/117321045/555c977d-66f3-4f7d-8ebc-5e9bf3a86483)
-
-The customised configuration of Core Linux offers the option to choose between four AUR helpers: yay, paru, aura, and pikaur, as well as useful packages such as timeshift, which are present on ai-repo, a repository that contains other useful packages for system installation. The graphical environment comes with a minimalised version of Gnome, with basic extensions for practical use. System updates can be easily managed with Arch Linux updates indicator, configured to handle official packages and AUR through Core Linux's update script. AppIndicator allows the system tray function to appear on the top bar, while Night Theme Switcher enables automatic switching between light and dark modes. Desktop-icons-ng is also available for managing desktop icons. Other functions and packages are regularly added to the evolving distribution.
-
-The filesystem used is **btrfs**, with the creation of subvolumes **@** and **@home**, and **zram generator** is installed for swap management.
-
-![Screenshot from 2023-07-27 20-54-10](https://github.com/ArchItalia/core/assets/117321045/5aebefe1-d4bf-4629-827a-f896bc26df1f)
+Core Linux is a new distribution based on Arch Linux, developed by the Italian community Architalia. It is described as a friendly, powerful, and easy-to-use distribution. Its installation is done through a configuration script that guides the user in choosing the system configuration options.
 
 
-To ensure the upkeep of the system, use the **clean** tool that is installed and available by typing `clean` in the console.
+The script starts by asking for the language to use during installation and shows a brief description of the project and the community that develops it. Then, it enters a series of guided choices to configure the system, starting with the selection of language, time zone, and character map.
+
+The process continues with the choice of the username, which is used to create the user account, the user password, and the root password encrypted with a securely generated key. The user can also choose one of the three available shells: bash, zsh, or fish.
+
+Next, the user is guided to choose among four possible AUR helpers and four possible firewalls: firewalld, ufw, iptables, or none. In addition, it's possible to choose the standard linux kernel or other versions such as linux-lts, linux-zen, linux-hardened, each with different features.
+
+Once some choices are made about which packages to install and which base version to select, the configuration of the disk partition is reached, where it is possible to choose the device on which to install the operating system, the file system format, and the partition size.
+
+The installation continues with the choice of the swap partition size. Then it's asked to select the nearest server mirror, and finally, an overview of all the choices made is presented. Here the user can choose to confirm and proceed with the installation or go back to the configuration phase to make changes.
+
+Finally, the script starts the actual installation, using the configuration file created earlier. The system installation will take some time depending on the power of the user's computer and the number of selected packages.
+
+In summary, Core Linux is an Arch Linux-based distribution designed to be friendly, powerful, and easy to use. The installation script provides a guided and simplified experience, allowing the user to customize their system securely and quickly.
+
+Clean is a tool created by the Core Linux team developers for system maintenance to remove orphan packages, package cache, user cache, and trash. Just type the clean command or use the application in the menu.
+
+The main difference between the Minimal and Full versions of Core Linux is related to the packages included in the basic installation. The Minimal version includes only the essential packages necessary to make the operating system work, such as the Arch Linux base core, libraries, fonts, themes, the Xorg graphical client, the GNOME desktop environment with some accessories like Nautilus, the network manager, the CUPS printing utility, and other utility packages like cronie and Git.
+
+In the Full version, instead, we also find packages like LibreOffice (an open-source alternative to Microsoft Office), Blender and Inkscape (3D graphics and animation programs), GIMP (a powerful image editor), VLC (a media player), and many other useful tools such as advanced text editors, productivity programs, applications for contact management, system utilities, communication applications, and many others.
+
+For both versions, the user can choose the type of AUR helper, firewall, and shell to use. Also, the installation requires the user to select a mirror server and the kernel version to use.
+
+In general, the Minimal version is designed to provide a solid foundation for building a customized operating system, while the Full version is more complete and offers many ready-to-use features for the average user. However, with both versions, the user has the flexibility to further customize their system according to their needs and preferences.
+
+Base packages in the Minimal Version:
+
+```
+* core-base
+* architalia-fonts
+* core-gtk-theme
+* core-gnome-backgrounds
+* core-icons-theme
+* core-keyring
+* core-extensions-base
+* core-terminal-nord-theme
+* clean
+* nautilus
+* cups
+* cronie
+* git
+* wget
+* reflector
+* bluez
+* bluez-utils
+* gnome-shell-extension-desktop-icons-ng
+* firefox
+* downgrade
+* timeshift
+* extension-manager
+* evince
+* eog
+* gparted
+* gsmartcontrol
+* mpv
+* gnome-calculator
+* gnome-clocks
+* gnome-calendar
+* gnome-terminal
+* gnome-text-editor
+* htop
+* gnome-system-monitor
+* vim
+* nano
+* neofetch
+```
+
+Additional packages in the Full version:
+```
+* etcher-bin
+* gnome-font-viewer
+* libreoffice
+* vlc
+* blender
+* inkscape
+* gimp
+* gnome-weather
+* gnome-maps
+* gnome-contacts
+* gnome-disk-utility
+* thunderbird
+* transmission-gtk
+* remmina
+* cheese
+* rhythmbox
+* simple-scan
+* telegram-desktop
+* obs-studio
+* discord
+* lutris
+* code
+* gnome-boxes
+* foliate
+* darktable
+```
+
+User-selectable options:
+```
+(aur helpers) yay, paru, aura, pikaur. 
+(firewall) firewalld, ufw, iptables.
+(shell) zsh, fish
+```
+
 
 ## Download
 [Download](https://drive.google.com/file/d/1ZszQ-0ke65Ya40a_7zBCXuKxh3F0E6sq/view?usp=sharing) **Core-2023.08.05-x86_64.zip** by Architalia GDrive 
