@@ -19,6 +19,8 @@ Team di sviluppo e beta tester della comunita' Architalia
 - Installcore v1.5 Aggiunta scelta AUR helper e firewall
 - Installcore v1.7 Scelta del kernel linux in installazione e migliorato il menu guida
 - Creato Multilingua per InstallCore in v.1.8
+- Creata versione minimal e full in v.1.9
+- creato color-folders per papirus base e nord con 45 temi colori in v.1.9
 ```
 
 ## In Sviluppo
