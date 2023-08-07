@@ -4,6 +4,7 @@ Core Linux is a new distribution based on Arch Linux, developed by the Italian c
 
 ![image](https://github.com/ArchItalia/core/assets/117321045/f3335ea8-3da3-4e43-a6c2-e668a24d651b)
 
+## Installation
 
 The script starts by asking for the language to use during installation and shows a brief description of the project and the community that develops it. Then, it enters a series of guided choices to configure the system, starting with the selection of language, time zone, and character map.
 
@@ -26,12 +27,23 @@ In summary, Core Linux is an Arch Linux-based distribution designed to be friend
 
 
 <br>
+## System Clean 
 
 Clean is a tool created by the Core Linux team developers for system maintenance to remove orphan packages, package cache, user cache, and trash. Just type the clean command or use the application in the menu.
 
 ![image](https://github.com/ArchItalia/core/assets/117321045/96ad1dfc-09e7-45f0-bdfd-43eca52feee3)
 
-<br>
+
+## Downgrade packages
+
+
+Downgrade is a tool for package storage in Arch Linux that allows users to revert to a previous version of a package. Arch Linux users can use Downgrade when system updates cause issues with the latest version of an installed package. For example, a new feature may have been added that the user does not like, or there may be bugs that prevent the use of the package.
+
+![image](https://github.com/ArchItalia/core/assets/117321045/2651064e-c8e3-4e8f-8694-8464367a69d5)
+
+To use Downgrade, the user must connect to the Core Linux console as a root user and launch the command 'downgrade package name'. The program displays a list of all installed packages in chronological order, from newest to oldest. The user can select the package they want to revert and choose the previous version they want to downgrade to. It should be noted that users can use a previous version of a package that is either installed in the package cache or remotely.
+
+
 The main difference between the Minimal and Full versions of Core Linux is related to the packages included in the basic installation. The Minimal version includes only the essential packages necessary to make the operating system work, such as the Arch Linux base core, libraries, fonts, themes, the Xorg graphical client, the GNOME desktop environment with some accessories like Nautilus, the network manager, the CUPS printing utility, and other utility packages like cronie and Git.
 
 In the Full version, instead, we also find packages like LibreOffice (an open-source alternative to Microsoft Office), Blender and Inkscape (3D graphics and animation programs), GIMP (a powerful image editor), VLC (a media player), and many other useful tools such as advanced text editors, productivity programs, applications for contact management, system utilities, communication applications, and many others.
