@@ -19,8 +19,16 @@ Finally, the script starts the actual installation, using the configuration file
 
 In summary, Core Linux is an Arch Linux-based distribution designed to be friendly, powerful, and easy to use. The installation script provides a guided and simplified experience, allowing the user to customize their system securely and quickly.
 
+![image](https://github.com/ArchItalia/core/assets/117321045/2c32b29f-8da9-480e-9efb-b0e8b4c0186e)
+
+
+<br>
+
 Clean is a tool created by the Core Linux team developers for system maintenance to remove orphan packages, package cache, user cache, and trash. Just type the clean command or use the application in the menu.
 
+![image](https://github.com/ArchItalia/core/assets/117321045/96ad1dfc-09e7-45f0-bdfd-43eca52feee3)
+
+<br>
 The main difference between the Minimal and Full versions of Core Linux is related to the packages included in the basic installation. The Minimal version includes only the essential packages necessary to make the operating system work, such as the Arch Linux base core, libraries, fonts, themes, the Xorg graphical client, the GNOME desktop environment with some accessories like Nautilus, the network manager, the CUPS printing utility, and other utility packages like cronie and Git.
 
 In the Full version, instead, we also find packages like LibreOffice (an open-source alternative to Microsoft Office), Blender and Inkscape (3D graphics and animation programs), GIMP (a powerful image editor), VLC (a media player), and many other useful tools such as advanced text editors, productivity programs, applications for contact management, system utilities, communication applications, and many others.
