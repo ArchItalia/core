@@ -131,10 +131,10 @@ With color-folders, you can change the style of your Papirus icons among 45 diff
 !!! info
 
     - Core Linux
-    - installcore v1.9
+    - installcore v.2.0
     - version 2023.8 Beta
     - size 1.48G
-    - sha256sum 
+    - sha256sum 447143e4c3eb9f5dbe5ded1f1514aea50f923a9497a14965ae644020d823c364
 
 NOTE: Pacman will complain about importing a PGP key that is either invalid or corrupted.  The problem can be fixed by locally signing the imported key:
 
