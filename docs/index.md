@@ -26,7 +26,6 @@ In summary, Core Linux is an Arch Linux-based distribution designed to be friend
 ![image](https://github.com/ArchItalia/core/assets/117321045/2c32b29f-8da9-480e-9efb-b0e8b4c0186e)
 
 
-<br>
 ## System Clean 
 
 Clean is a tool created by the Core Linux team developers for system maintenance to remove orphan packages, package cache, user cache, and trash. Just type the clean command or use the application in the menu.
