@@ -4,8 +4,7 @@ Team di sviluppo e beta tester della comunita' Architalia
 - Klod Cripta - beta tester
 - Jonalinux - developer
 
-## ultima release per test
-[Download](https://drive.google.com/file/d/1ZszQ-0ke65Ya40a_7zBCXuKxh3F0E6sq/view?usp=sharing) v.1.8 sha256sum: fdcd734f1c08b429f7c7f9e0c8793fa4b0bb5c12273cd08b90b08b81096280e0
+
 
 
 ## Log di Sviluppo
