@@ -48,7 +48,8 @@ To use Downgrade, the user must connect to the Core Linux console as a root user
 With the help of TimeShift, users can take a snapshot of the system before performing a major update or installing new software packages. In case of any issues during the update, using TimeShift allows for easy restoration of the previous system state without any loss of data or customized configurations.
 
 
-![image](https://github.com/ArchItalia/core/assets/117321045/3702056c-ceec-404b-bd81-64957580c0e7)
+![image](https://github.com/ArchItalia/core/assets/117321045/fc364aaf-34ef-4c89-9cc0-8e4688eec6d0)
+
 
 
 ## Version Minimal and Full
