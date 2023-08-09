@@ -21,6 +21,8 @@ Team di sviluppo e beta tester della comunita' Architalia
 - Creato Multilingua per InstallCore in v.1.8
 - Creata versione minimal e full in v.1.9
 - creato color-folders per papirus base e nord con 45 temi colori in v.1.9
+- Correzzione del file os-release con logo ascii
+- Creazione di un welcome in python 
 ```
 
 ## In Sviluppo
@@ -28,7 +30,5 @@ Team di sviluppo e beta tester della comunita' Architalia
 ```
 - Scelta del supporto nvidia in installazione
 - Creazione della funzione per l'installazione nvidia
-- Correzzione del file os-release con logo ascii
-- Creazione di un welcome in python con link architalia
 - Logo pixmaps in settings 
 ```
