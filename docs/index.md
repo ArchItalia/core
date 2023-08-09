@@ -150,7 +150,10 @@ With color-folders, you can change the style of your Papirus icons among 45 diff
 <br>
 
 ## Download 
-[Download](https://drive.google.com/file/d/1RjuYMJQeTP5urZipwZXCBGNHkE8c5JyG/view?usp=sharing) **Core-2023.08.07-x86_64.zip**
+
+[Download Core-2023.08.09-x86_64.zip](https://drive.google.com/file/d/10rqQFHiCDT2AxGZEFrk-ZfE8RVcqthOp/view?usp=sharing) 
+
+`sha256sum a27ef8e224dd0b2cfc82b9e202cca7b4d7bb1406d067c2aff1b388d073831179  Core-2023.08.09-x86_64.iso`
 
 !!! warning
    
@@ -162,7 +165,7 @@ With color-folders, you can change the style of your Papirus icons among 45 diff
     - installcore v.2.0
     - version 2023.8 Beta
     - size 1.48G
-    - sha256sum 8eb8bd97aa8396c95ad97aae6419b2c85c673bd0b62f3301df160c5070e629a9
+    
 
 NOTE: Pacman will complain about importing a PGP key that is either invalid or corrupted.  The problem can be fixed by locally signing the imported key:
 
