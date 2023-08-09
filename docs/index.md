@@ -139,6 +139,7 @@ User-selectable options:
 ## Color-folders
 
 With color-folders, you can change the style of your Papirus icons among 45 different themes.
+![Uploading image.png…]()
 
 ![Screenshot from 2023-08-07 16-12-09](https://github.com/ArchItalia/core/assets/117321045/6de8658f-2147-4686-a4d7-8937c60e80fc)
 
