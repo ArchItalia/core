@@ -42,7 +42,8 @@ Clean is a tool created by the Core Linux team developers for system maintenance
 
 Downgrade is a tool for package storage in Arch Linux that allows users to revert to a previous version of a package. Arch Linux users can use Downgrade when system updates cause issues with the latest version of an installed package. For example, a new feature may have been added that the user does not like, or there may be bugs that prevent the use of the package.
 
-![image](https://github.com/ArchItalia/core/assets/117321045/2651064e-c8e3-4e8f-8694-8464367a69d5)
+![image](https://github.com/ArchItalia/core/assets/117321045/6840e6ac-22b4-4ee5-ab4c-291ba40cd78c)
+
 
 To use Downgrade, the user must connect to the Core Linux console as a root user and launch the command 'downgrade package name'. The program displays a list of all installed packages in chronological order, from newest to oldest. The user can select the package they want to revert and choose the previous version they want to downgrade to. It should be noted that users can use a previous version of a package that is either installed in the package cache or remotely.
 
