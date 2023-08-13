@@ -2,7 +2,8 @@
 
 Core Linux is a new distribution based on Arch Linux, developed by the Italian community Architalia. It is described as a friendly, powerful, and easy-to-use distribution. Its installation is done through a configuration script that guides the user in choosing the system configuration options.
 
-![image](https://github.com/ArchItalia/core/assets/117321045/469fb9c4-0574-45d2-8366-290788c820f7)
+![image](https://github.com/ArchItalia/core/assets/117321045/f63e5d6d-e6d4-4cb0-b0f6-0e248f8bf2ad)
+
 
 ![image](https://github.com/ArchItalia/core/assets/117321045/fd0f00cb-0225-4572-bcf3-ac701545518f)
 
@@ -151,9 +152,9 @@ With color-folders, you can change the style of your Papirus icons among 45 diff
 
 ## Download 
 
-[Download Core-2023.08.09-x86_64.zip](https://drive.google.com/file/d/10rqQFHiCDT2AxGZEFrk-ZfE8RVcqthOp/view?usp=sharing) 
+[Download Core-2023.08.13-x86_64.zip]() 
 
-`sha256sum a27ef8e224dd0b2cfc82b9e202cca7b4d7bb1406d067c2aff1b388d073831179  Core-2023.08.09-x86_64.iso`
+`sha256sum 0a367147a81308a874609fb1e22fa71f5eacd06cf11da89d3d11a5f6864c58a8  Core-2023.08.13-x86_64.iso`
 
 !!! warning
    
@@ -162,7 +163,7 @@ With color-folders, you can change the style of your Papirus icons among 45 diff
 !!! info
 
     - Core Linux
-    - installcore v.2.0
+    - installcore v.2.1
     - version 2023.8 Beta
     - size 1.48G
     
