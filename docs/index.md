@@ -152,7 +152,7 @@ With color-folders, you can change the style of your Papirus icons among 45 diff
 
 ## Download 
 
-[Download Core-2023.08.13-x86_64.zip]() 
+[Download Core-2023.08.13-x86_64.zip]() ready in 1h.. in loading
 
 `sha256sum 0a367147a81308a874609fb1e22fa71f5eacd06cf11da89d3d11a5f6864c58a8  Core-2023.08.13-x86_64.iso`
 
