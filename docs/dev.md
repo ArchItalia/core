@@ -21,7 +21,14 @@ Team di sviluppo e beta tester della comunita' Architalia
 - Creata versione minimal e full in v.1.9
 - creato color-folders per papirus base e nord con 45 temi colori in v.1.9
 - Correzzione del file os-release con logo ascii
-- Creazione di un welcome in python 
+- Creazione di un welcome in python
+- v2.1 lingua della tastiera per configurare il sistema di destinazione e la tastiera della live immediatamente sul momento.
+- v2.1 corretto la lunga attesa di reflector in installazione 
+- v2.1 aggiunto la possibilita di modificare il nome utente dal nome reale
+- v2.1 aggiunto al sistema la possibilita di gestire la rotazione delle immagini e il ridimensionamento da nautilus
+- v2.1 aggiunto la possibilita di cliccare con il tasto destro su una cartella e cambiare un colore tra quelli nord e aggiungere un emblema
+- v2.1 aggiunto nel welcome l'utility downgrade per il roll back dei pacchetti
+- v2.1 aggiunto l'utility reflector per aggiornare i mirrorlist inserendo piu paesi se necessario.
 ```
 
 ## In Sviluppo
