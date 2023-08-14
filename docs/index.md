@@ -151,6 +151,134 @@ With color-folders, you can change the style of your Papirus icons among 45 diff
 
 <br>
 
+## Nvidia Support
+
+![image](https://github.com/ArchItalia/core/assets/117321045/9c82c096-89c7-4ee9-99c6-5ef9c9b89315)
+
+Base support for nvidia driver installation and Nvidia Optimus configuration for gdm display manager.
+
+Install nvidia packages:
+
+```
+sudo pacman -S nvidia nvidia-utils nvidia-settings libva-utils libva-vdpau-driver libva-mesa-driver
+```
+
+Create the hooks directory and add the configuration:
+
+- `sudo mkdir -p /etc/pacman.d/hooks`
+- `sudo vim /etc/pacman.d/hooks/nvidia.hook`
+
+```
+[Trigger]
+Operation=Install
+Operation=Upgrade
+Operation=Remove
+Type=Package
+Target=nvidia
+
+
+[Action]
+Description=Update Nvidia module in initcpio
+Depends=mkinitcpio
+When=PostTransaction
+Exec=/usr/bin/mkinitcpio -P
+
+```
+
+Create the nouveau blacklist file as root:
+
+`sudo vim /etc/X11/xorg.conf.d/10-nvidia-drm-outputclass.conf`
+
+```
+Section "OutputClass"
+Identifier "intel"
+MatchDriver "i915"
+Driver "modesetting"
+EndSection
+
+Section "OutputClass"
+Identifier "nvidia"
+MatchDriver "nvidia-drm"
+Driver "nvidia"
+Option "AllowEmptyInitialConfiguration"
+Option "PrimaryGPU" "yes"
+ModulePath "/usr/lib/nvidia/xorg"
+ModulePath "/usr/lib/xorg/modules"
+EndSection
+
+```
+
+Display Manager Configuration for GDM
+
+`sudo vim /usr/share/gdm/greeter/autostart/optimus.desktop`
+
+```
+[Desktop Entry]
+Type=Application
+Name=Optimus
+Exec=sh -c "xrandr --setprovideroutputsource modesetting NVIDIA-0; xrandr --auto"
+NoDisplay=true
+X-GNOME-Autostart-Phase=DisplayServer
+
+```
+
+`sudo vim /etc/xdg/autostart/optimus.desktop`
+
+```
+[Desktop Entry]
+Type=Application
+Name=Optimus
+Exec=sh -c "xrandr --setprovideroutputsource modesetting NVIDIA-0; xrandr --auto"
+NoDisplay=true
+X-GNOME-Autostart-Phase=DisplayServer
+
+```
+
+Mkinitcpio
+
+Edit the mkinitcpio.conf file and add the following to our configuration and add kernel modules:
+
+`sudo vim /etc/mkinitcpio.conf`
+
+```
+MODULES=(btrfs nvidia nvidia_modeset nvidia_uvm nvidia_drm)
+
+```
+
+`sudo mkinitcpio -P`
+
+
+Xinitrc
+
+Add to the .xinitrc file or create it if it does not exist in `~/.xinitrc`
+
+```
+xrandr --output <output-name> --set "PRIME Synchronization" 1
+```
+
+Finally, add the kernel parameter `nvidia_drm.modeset=1 ` in your bootloader configuration:
+
+GRUB:
+
+```
+GRUB_CMDLINE_LINUX="nvidia-drm.modeset=1"
+```
+
+`# grub-mkconfig -o /boot/grub/grub.cfg`
+
+Systemd-boot:
+
+For example, if your configuration is in `/boot/loader/entries/arch.conf`
+
+```
+options root=/dev/xxx  rootflags=subvol=@ rw quiet loglevel=3 rd.system.show_status=auto rd.udev.log_level=3 nvidia-drm.modeset=1
+
+```
+
+Restart the machine `$ reboot`
+
+<br> 
+
 ## Download 
 
 [Download Core-2023.08.13-x86_64.zip](https://drive.google.com/file/d/1pDEHEHjZXSUTdBnkkb390j5lH81tQ57Q/view?usp=sharing) 
