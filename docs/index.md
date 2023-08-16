@@ -102,6 +102,7 @@ Base packages in the Minimal Version:
 * vim
 * nano
 * neofetch
+* liferea 
 ```
 
 Additional packages in the Full version:
