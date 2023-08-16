@@ -284,9 +284,9 @@ Restart the machine `$ reboot`
 
 ## Download 
 
-[Download Core-2023.08.16-x86_64.zip](https://drive.google.com/file/d/1qCULt1OWg1tunGO1V52amECS30NRhHZb/view?usp=sharing) 
+[Download Core-2023.08.16-x86_64.zip](https://drive.google.com/file/d/1wYXX8MAlWTeN_KYtivc-wYczJxqqZY2U/view?usp=sharing) 
 
-`sha256sum f89a9893edc7441bae18c23c041d84a229d13ab98af0b7379851a116b40a5bb7 Core-2023.08.16-x86_64.iso`
+`sha256sum 65e79b06f981f9c65d4867377d8599407c5ca95b148e4df46756cab30f07d67c  Core-2023.08.16-x86_64.iso`
 
 !!! warning
    
