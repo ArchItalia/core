@@ -2,7 +2,8 @@
 
 Core Linux is a new distribution based on Arch Linux, developed by the Italian community Architalia. It is described as a friendly, powerful, and easy-to-use distribution. Its installation is done through a configuration script that guides the user in choosing the system configuration options.
 
-![image](https://github.com/ArchItalia/core/assets/117321045/f40d106f-51f4-4aeb-b622-ba0d6ae66b76)
+![image](https://github.com/ArchItalia/core/assets/117321045/0a0ee32c-d329-4570-a2e3-5bf843a6be70)
+
 
 
 
